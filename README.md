@@ -68,7 +68,7 @@ The program compares the two Java files and prints their corresponding line mapp
 ### Example Output
 
 ```text
-OLD LINE -> NEW LINE(S) | STATUS | SCORE
+OLD LINE -> NEW LINE(S)  | STATUS    | SCORE
 ------------------------------------------------------
        1 -> 1            | unchanged | 1.0000
        2 -> 2            | unchanged | 1.0000
@@ -278,10 +278,10 @@ py -m unittest discover -s tests -v
 
 ---
 
-**Course:** COMP 3110 — Introduction to Software Engineering
+**Course:** COMP 3110 - Introduction to Software Engineering
 
 **Project:** A Language-Independent Approach for Tracking Source Code Lines
 
 **Implementation:** Python
 
-**Current Scope:** Goal 1 — Source Code Line Tracking
+**Current Scope:** Goal 1 - Source Code Line Tracking
