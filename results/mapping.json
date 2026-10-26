@@ -1,0 +1,50 @@
+[
+  {
+    "old": 1,
+    "new": [
+      1
+    ],
+    "type": "unchanged",
+    "score": 1.0
+  },
+  {
+    "old": 2,
+    "new": [
+      2
+    ],
+    "type": "unchanged",
+    "score": 1.0
+  },
+  {
+    "old": 3,
+    "new": [
+      3
+    ],
+    "type": "modified",
+    "score": 0.7457
+  },
+  {
+    "old": 4,
+    "new": [
+      4
+    ],
+    "type": "modified",
+    "score": 0.731
+  },
+  {
+    "old": 5,
+    "new": [
+      5
+    ],
+    "type": "unchanged",
+    "score": 1.0
+  },
+  {
+    "old": 6,
+    "new": [
+      6
+    ],
+    "type": "unchanged",
+    "score": 1.0
+  }
+]
