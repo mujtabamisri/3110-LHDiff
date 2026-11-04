@@ -2,7 +2,7 @@ import csv
 import json
 from pathlib import Path
 
-
+# Report formatting function
 def print_report(rows: list[dict]) -> None:
     print('OLD LINE -> NEW LINE(S) | STATUS | SCORE')
     print('-' * 54)
@@ -11,7 +11,7 @@ def print_report(rows: list[dict]) -> None:
         new = ','.join(map(str, row['new'])) or '-'
         print(f"{old:>8} -> {new:<12} | {row['type']:<9} | {row['score']:.4f}")
 
-
+# Export function
 def export(rows: list[dict], path: str) -> None:
     target = Path(path)
     target.parent.mkdir(parents=True, exist_ok=True)
